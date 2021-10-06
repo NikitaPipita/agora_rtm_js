@@ -4,8 +4,8 @@ module.exports = {
     mode: 'production',
     entry: './index.js',
     output: {
-        filename: 'bundle.js',
-        path: path.resolve(__dirname, './dist'),
+        filename: 'agora_rtm.js',
+        path: path.resolve(__dirname, '.'),
     },
     devServer: {
         compress: true,
