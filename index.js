@@ -3,9 +3,7 @@ import AgoraRTM from 'agora-rtm-sdk'
 let nextClientIndex = 0
 let clients = new Map()
 
-console.log('JS loaded')
 window.agoraRtmInvokeMethod = async (method, call, params) => await invokeMethod(method, call, params)
-console.log('JS loaded')
 
 function mapToJsonString(map) {
     return JSON.stringify(Object.fromEntries(map))
